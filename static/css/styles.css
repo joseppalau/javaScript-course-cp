@@ -1,0 +1,55 @@
+.container-1, .container-2, .container-3, .container-4, .container-5{
+  border: 1px solid black;
+  width:75%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.flex-box-container-1{
+  border: 1px solid black;
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-box-container-1 div{
+  color:grey;
+  display: flex;
+  border:1px solid black;
+  padding: 5px;
+}
+
+.flex-box-container-2, .flex-box-container-3, .flex-box-pick-color, .flex-box-blackjack-row-1, .flex-box-blackjack-row-2, .flex-box-blackjack-row-3{
+  border: 1px solid black;
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+  justify-content:space-around;
+}
+
+.flex-box-container-3 img:hover{
+  box-shadow: 10px 10px 50px rgba(37, 50, 223, 1);
+}
+
+.flex-box-blackjack-row-1, .flex-box-blackjack-row-2{
+  background: url('https://us.123rf.com/450wm/salamatik/salamatik1803/salamatik180300012/97519237-green-texture-felt-background-for-poker-and-casino-table-.jpg?ver=6') center;
+  color:white;
+}
+
+.flex-box-blackjack-row-1 div{
+  border: 1px solid black;
+  height: 350px;
+  flex: 1;
+  text-align: center;
+}
+
+.flex-box-blackjack-row-1 img{
+  width:25%
+}
+
+table th,td{
+  padding: 5px;
+  border: 1px solid black;
+
+}
